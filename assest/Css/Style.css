@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(23, 22, 22) !important; 
+}
+
+.nav{
+    background-color: rgb(38, 39, 40);
+    padding: 0.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 40%;
+    padding: 0.3%;
+    border-radius: 0 5px 5px 0;
+    border:none;    
+}
+.nav button{
+    border-radius:  5px 0 0 5px;
+    border:none;
+    padding: 0.3% 1%;
+}   
+.list-search{
+    display: none;
+}
+input{
+    outline: none;
+}
+.search-down{
+    position: absolute;
+
+}
